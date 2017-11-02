@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Gabriel Kling</title>
+   <!--Import Google Icon Font-->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+   <!--Let browser know website is optimized for mobile-->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Roboto+Mono" rel="stylesheet">
+   <link rel="stylesheet" href="CSS/style.css">
+   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+</head>
+
+<body>
+   <div class="navbar-fixed">
+      <nav>
+         <div class="nav-wrapper grey darken-4 font-quicksand">
+            <a href="#!" class="brand-logo center bold">GK</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="hide-on-med-and-down bold">
+               <li><a href="#home">Home</a>
+               </li>
+               <li><a href="#about">About</a>
+               </li>
+               <li><a href="#portfolio">Portfolio</a>
+               </li>
+               <li><a href="#contact">Contact</a>
+               </li>
+            </ul>
+            <ul class="side-nav bold" id="mobile-demo">
+               <li><a href="#home">Home</a>
+               </li>
+               <li><a href="#about">About</a>
+               </li>
+               <li><a href="#portfolio">Portfolio</a>
+               </li>
+               <li><a href="#contact">Contact</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+   </div>
+   <div class="row">
+      <!--  Home -->
+        <div class="parallax-container scrollspy full-width" id="home">
+         <div class="parallax"><img alt="Background" class="blur" src="IMG/bg4.jpg">
+         </div>
+         <h3 class="first-title center-text"><span class="white-text write font-quicksand bold"></span></h3>
+         <p class="font-quicksand first-title more center-text"><a class="black-text" href="#about">Learn more about me<br><i class="material-icons">keyboard_arrow_down</i></a>
+         </p>
+      </div>
+      <!-- About Me -->
+      <div class="row">
+         <div class="col s12 scrollspy about-me" id="about">
+            <h3 class="font-quicksand center-text black-text">Who am I?</h3>
+            <img class="hide-on-med-and-down circle" alt="Me" src="IMG/profile.jpg">
+            <p class="font-quicksand size">My name is Gabriel Kling, I'm a front-end developer and Computer Engineering student from Brazil. I have pratical experience with Object Oriented and Structured programming languages. Now, I'm building UI/UX too.
+            </p>
+         </div>
+      </div>
+      <!--  Portfolio -->
+      <div class="row container">
+         <div class="col s12 scrollspy" id="portfolio">
+            <h3 class="black-text center-text font-quicksand" style="margin-bottom: 10%;">My Works</h3>
+         </div>
+      </div>
+      <!--  Contact -->
+      <div class="col s12 scrollspy about-me" id="contact">
+         <h3 class="black-text font-quicksand center-text">Contact Me</h3>
+         <form class="col s12">
+           <div class="container">
+              <div class="input-field col s12 m6">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s12 m6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+
+              <div class="input-field col s12">
+               <input id="email" type="email" class="validate">
+               <label for="email">Email</label>
+              </div>
+
+              <div class="input-field col s12">
+                <textarea id="message" class="materialize-textarea"></textarea>
+                <label for="message">Tell me more about what you want.</label>
+              </div>
+
+              <button class="btn grey darken-4 col s12 waves-effect waves-light botao" type="submit" name="action">Send
+                <i class="material-icons right">send</i>
+              </button>
+           </div>
+         </form>
+      </div>
+
+      <div class="fixed-action-btn">
+        <a class="btn-floating btn-large grey darken-3" href="#home">
+          <i class="large material-icons">arrow_upward</i>
+        </a>
+      </div>
+
+   </div>
+   <footer class="page-footer grey darken-4">
+      <div class="footer-copyright">
+         <div class="container">
+            © 2017 Gabriel Kling. All Rights Reserved
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+         </div>
+      </div>
+   </footer>
+</body>
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="JS/myjs.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+<script>
+   $(document).ready(function() {
+      $(".button-collapse").sideNav();
+      $('.scrollspy').scrollSpy();
+      $('.parallax').parallax();
+      $('input#email').characterCounter();
+   });
+</script>
+<script>
+   var options = {
+      strings: ["Hi,^500 i'm a web developer!", "Hi,^500 i'm Gabriel Kling!"],
+      typeSpeed: 40,
+      showCursor: false,
+      loop: true,
+      backSpeed: 40,
+   }
+
+   var typed = new Typed(".write", options);
+   // <-- this line is causing error, delete delete these closing brackets
+</script>
+
+</html>
