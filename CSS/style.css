@@ -1,0 +1,91 @@
+.font-quicksand {
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+.bold {
+    font-weight: bold;
+}
+.center-text {
+    text-align: center;
+}
+.full-width {
+    width: 100%;
+}
+.write {
+    font-size: 40px;
+}
+.parallax-container {
+    height: 766px;
+}
+.blur {
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+}
+.first-title {
+    padding-top: 15%;
+}
+.more {
+    font-size: 25px;
+    position: static;
+}
+.about-me {
+    background-color: #eeeeee;
+    height: auto;
+}
+.margin-card {
+    margin-bottom: 15%;
+}
+p a:hover {
+    text-decoration: underline;
+}
+nav {
+    height: 80px;
+    line-height: 80px;
+}
+nav i,
+nav [class^="mdi-"],
+nav [class*="mdi-"],
+nav i.material-icons {
+    height: 80px;
+    line-height: 80px;
+}
+nav .button-collapse i {
+    height: 80px;
+    line-height: 80px;
+}
+nav .brand-logo {
+    font-size: 1.6rem;
+}
+@media only screen and (min-width: 601px) {
+    nav,
+    nav .nav-wrapper i,
+    nav a.button-collapse,
+    nav a.button-collapse i {
+        height: 80px;
+        line-height: 80px;
+    }
+}
+.circle {
+    border-radius: 50%;
+    float: right;
+    margin-left: 6%;
+    margin-bottom: 8%;
+    width: 20%;
+    margin-right: 3%;
+}
+.size {
+    padding-top: 3%;
+    font-size: 30px;
+    text-align: right;
+}
+
+footer{
+  margin-top: -2%;
+}
+
+#contact{
+  padding-bottom: 5%;
+}
