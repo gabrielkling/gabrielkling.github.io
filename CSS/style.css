@@ -89,3 +89,35 @@ footer{
 #contact{
   padding-bottom: 5%;
 }
+
+.bar{
+  background-color: #bdbdbd;
+  height: 30px;
+}
+
+.html-prg{
+  background-color: #212121;
+  width: 75%;
+  height: 30px;
+  margin-left: -2%;
+}
+
+.css-prg{
+  background-color: #212121;
+  width: 60%;
+  height: 30px;
+  margin-left: -2%;
+}
+
+.js-prg{
+  background-color: #212121;
+  width: 60%;
+  height: 30px;
+  margin-left: -2%;
+}
+.c-prg{
+  background-color: #212121;
+  width: 85%;
+  height: 30px;
+  margin-left: -2%;
+}
