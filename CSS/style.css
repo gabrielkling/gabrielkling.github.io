@@ -68,6 +68,16 @@ nav .brand-logo {
         line-height: 80px;
     }
 }
+
+@media only screen and (max-width: 600px){
+  .parallax-container{
+    height: 736px;
+  }
+  .first-title{
+    padding-top: 220px;
+  }
+}
+
 .circle {
     border-radius: 50%;
     float: right;
@@ -97,27 +107,27 @@ footer{
 
 .html-prg{
   background-color: #212121;
-  width: 75%;
+  width: 78%;
   height: 30px;
-  margin-left: -2%;
+  margin-left: -5%;
 }
 
 .css-prg{
   background-color: #212121;
-  width: 60%;
+  width: 73%;
   height: 30px;
-  margin-left: -2%;
+  margin-left: -5%;
 }
 
 .js-prg{
   background-color: #212121;
-  width: 60%;
+  width: 63%;
   height: 30px;
-  margin-left: -2%;
+  margin-left: -5%;
 }
 .c-prg{
   background-color: #212121;
-  width: 85%;
+  width: 88%;
   height: 30px;
-  margin-left: -2%;
+  margin-left: -5%;
 }
