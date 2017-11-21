@@ -1,3 +1,7 @@
+$('.scrollspy').scrollSpy();
+$('.parallax').parallax();
+$('input#email').characterCounter();
+
 $('.button-collapse').sideNav({
      menuWidth: 300, // Default is 300
      edge: 'left', // Choose the horizontal origin
